@@ -1,0 +1,35 @@
+import ccxt import time
+class MarketMakingBot: def init(self, exchanges): self.exchanges = {name: ccxt.getattribute(name)() for name in exchanges} self.symbol = 'BTC/USDT' # Example trading pair self.spread = 0.01 # 1% spread
+def fetch_prices(self):
+    prices = {}
+    for name, exchange in self.exchanges.items():
+        try:
+            ticker = exchange.fetch_ticker(self.symbol)
+            prices[name] = ticker['last']
+        except Exception as e:
+            print(f"Error fetching price from {name}: {e}")
+    return prices
+
+def place_orders(self, prices):
+    for name, price in prices.items():
+        exchange = self.exchanges[name]
+        try:
+            # Calculate buy and sell prices based on the spread
+            buy_price = price * (1 - self.spread)
+            sell_price = price * (1 + self.spread)
+
+            # Place buy and sell orders
+            exchange.create_limit_buy_order(self.symbol, 1, buy_price)
+            exchange.create_limit_sell_order(self.symbol, 1, sell_price)
+            print(f"Placed orders on {name}: Buy at {buy_price}, Sell at {sell_price}")
+
+        except Exception as e:
+            print(f"Error placing orders on {name}: {e}")
+
+def run(self):
+    while True:
+        prices = self.fetch_prices()
+        if prices:
+            self.place_orders(prices)
+        time.sleep(10)  # Wait for 10 seconds before the next iteration
+if name == "main": exchanges = ['binance', 'kraken', 'uniswap'] # List of exchanges to support bot = MarketMakingBot(exchanges) bot.run()
