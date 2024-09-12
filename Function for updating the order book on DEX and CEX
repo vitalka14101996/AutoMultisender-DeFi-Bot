@@ -1,0 +1,14 @@
+// def update_order_book():
+    # Fetch order book from DEX
+    dex_order_book = dex.fetch_order_book(symbol)
+
+    # Fetch order book with CEX
+    cex_order_book = cex.fetch_order_book(symbol)
+
+    # Update the order book on DEX
+    dex.create_order(symbol, 'limit', 'sell', dex_order_book['asks'][0][0], dex_order_book['asks'][0][1])
+    dex.create_order(symbol, 'limit', 'buy', dex_order_book['bids'][0][0], dex_order_book['bids'][0][1])
+
+    # Update the order book on CEX
+    cex.create_order(symbol, 'limit', 'sell', cex_order_book['asks'][0][0], cex_order_book['asks'][0][1])
+    cex.create_order(symbol, 'limit', 'buy', cex_order_book['bids'][0][0], cex_order_book['bids'][0][1])
