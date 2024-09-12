@@ -1,0 +1,64 @@
+import ccxt import time
+class PriceBasedMarketMakingBot: def init(self, exchanges, trading_pairs, thresholds): self.exchanges = {name: ccxt.getattribute(name)() for name in exchanges} self.trading_pairs = trading_pairs self.thresholds = thresholds # Dictionary of thresholds for each pair self.orders = {} # Store active orders
+def fetch_prices(self):
+    prices = {}
+    for name, exchange in self.exchanges.items():
+        prices[name] = {}
+        for pair in self.trading_pairs:
+            try:
+                ticker = exchange.fetch_ticker(pair)
+                prices[name][pair] = ticker['last']
+            except Exception as e:
+                print(f"Error fetching price from {name} for {pair}: {e}")
+    return prices
+
+def check_triggers(self, prices):
+    for name, pairs in prices.items():
+        exchange = self.exchanges[name]
+        for pair, price in pairs.items():
+            if pair in self.thresholds:
+                buy_threshold = self.thresholds[pair]['buy']
+                sell_threshold = self.thresholds[pair]['sell']
+
+                # Check if the current price meets the buy trigger
+                if price <= buy_threshold:
+                    self.place_order(exchange, pair, 'buy', price)
+
+                # Check if the current price meets the sell trigger
+                elif price >= sell_threshold:
+                    self.place_order(exchange, pair, 'sell', price)
+
+def place_order(self, exchange, pair, side, price):
+    try:
+        # Place limit order
+        order_type = 'limit'
+        amount = 1  # Define the amount to trade
+        if side == 'buy':
+            order = exchange.create_limit_buy_order(pair, amount, price)
+            print(f"Placed Buy Order on {exchange.id} for {pair}: {order}")
+        else:
+            order = exchange.create_limit_sell_order(pair, amount, price)
+            print(f"Placed Sell Order on {exchange.id} for {pair}: {order}")
+
+        # Store the order
+        self.orders[pair] = order
+
+    except Exception as e:
+        print(f"Error placing order on {exchange.id} for {pair}: {e}")
+
+def run(self):
+    while True:
+        prices = self.fetch_prices()
+        if prices:
+            self.check_triggers(prices)
+        time.sleep(1)  # Sleep briefly to avoid busy waiting
+if name == "main": exchanges = ['binance', 'kraken'] # List of exchanges to support trading_pairs = ['BTC/USDT', 'ETH/USDT', 'LTC/USDT'] # List of trading pairs
+# Define buy and sell thresholds for each trading pair
+thresholds = {
+    'BTC/USDT': {'buy': 30000, 'sell': 35000},
+    'ETH/USDT': {'buy': 2000, 'sell': 2500},
+    'LTC/USDT': {'buy': 100, 'sell': 150}
+}
+
+bot = PriceBasedMarketMakingBot(exchanges, trading_pairs, thresholds)
+bot.run()
