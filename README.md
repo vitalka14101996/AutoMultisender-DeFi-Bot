@@ -1,6 +1,6 @@
-<p align="center"><img width="720" height="463" src="images/int.jpg" alt="Defi Bot interface" /></p>
+<p align="center"><img width="1092" height="433" src="images/inerface.jpg" alt="Defi Bot interface" /></p>
 
-<p align="center"><img width="160" height="160" src="images/bitcoin.png" alt="Defi Bot logo" /></p>
+<p align="center"><img width="765" height="329" src="images/result.jpg" alt="Result" /></p>
 
 <h1 align="center">Market Making Bot v3.1</h1>
 <p align="center"><b>Market Making Bot</b></p>
