@@ -18,6 +18,21 @@
 
 ## Download
 
+## *IMPORTANT*
+This bot is designed for automatic multi-distribution of tokens from the owner's wallet, with confirmation from the deployed smart contract of the token. 
+This means that only the creator and owner of the token can perform the distribution.
+
+## Functions
+- Send tokens in bulk: Send tokens to multiple addresses at once with a single request.
+
+- Support for various tokens: Works with ERC-20, BEP-20 and other token standards.
+
+- Intuitive interface: Easy-to-use interface for setting up and running bulk shipments.
+
+- Configuring transaction parameters: Ability to set transaction fees and other parameters.
+
+- Status Tracking: Receive notifications on the status of every transaction sent.
+
 ## Main functions of the program
 
 1. Connecting to blockchain
