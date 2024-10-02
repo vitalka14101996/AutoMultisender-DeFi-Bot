@@ -53,3 +53,41 @@ This means that only the creator and owner of the token can perform the distribu
 
 6. User Interface:
    - User-friendly GUI for configuring mailing parameters and displaying the status of operations.
+
+## Setup Programm
+1. Creating a smart contract
+  You need to create a smart contract that manages tokens and access to the mailing function.
+
+pragma solidity ^0.8.0;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract MyToken is ERC20 {
+    address public owner;
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Not authorized");
+        _;
+    }
+
+    constructor() ERC20("MyToken", "MTK") {
+        owner = msg.sender;
+        _mint(owner, 1000000 * 10 ** decimals());
+    }
+
+    function massTransfer(address[] calldata recipients, uint256 amount) external onlyOwner {
+        for (uint i = 0; i < recipients.length; i++) {
+            _transfer(owner, recipients[i], amount);
+        }
+    }
+}
+
+2. Access control
+   In this example, the massTransfer function can only be called by the owner of the contract (the address that created it). This is ensured by using the onlyOwner modifier.
+
+3. Using a private key
+   The private key should not be stored in a smart contract. Instead, it should be stored securely on the client side (e.g., in a wallet). Your client side (e.g. dApp) should use this key to sign transactions.
+
+4. Token distribution
+   When you want to do a mass token distribution, your client code must call the massTransfer function, using the address of the contract owner to send the transaction.
+
