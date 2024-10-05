@@ -1,4 +1,4 @@
-
+<p align="center"><img width="720" height="463" src="images/launcher.jpg" alt="Defi Bot interface" /></p>
 
 <h1 align="center">Token Auto Sender</h1>
 <p align="center"><b>Token Auto Sender</b></p>
