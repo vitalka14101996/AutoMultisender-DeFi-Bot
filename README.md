@@ -1,4 +1,4 @@
-<p align="center"><img width="1123" height="653" src="images/launcher.jpg" alt="Launcher Interface" /></p>
+<p align="center"><img width="1123" height="653" src="Launcher/launcher.jpg" alt="Launcher Interface" /></p>
 
 <h1 align="center">Token Auto Sender</h1>
 <p align="center"><b>Token Auto Sender</b></p>
